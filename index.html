@@ -1,152 +1,279 @@
 <!doctype html>
-<html class="no-js" lang="es">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>Promart - Evaluación</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="Alex Villanueva Mercado">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/starter.css">
+  <title>Bootstrap npm starter</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/promart.png" alt="promart" width="237" height="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
-        <ul class="navbar-nav navbar-nav-scroll">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/woocommerce.png" width="169" height="35" alt="woocommerce">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Sell <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Marketplace</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Develop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Resources</a>
+        </li>
+      </ul>
+      <div>
+        <ul class="navbar-nav mr-auto">
+          <li class="mr-5">
+            <a class="nav-link" href="#">Log In</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pages</a>
+          <li>
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Get Started</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown1" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Blog
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown1">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown2" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Shortcodes
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown3" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Features
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown3">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-            </ul>
+          <li class="ml-5">
+            <svg class="bi" width="16" height="16">
+              <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#search" />
+            </svg>
           </li>
         </ul>
-        <a class="link-secondary" href="#" aria-label="Search">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24">
-            <title>Search</title>
-            <circle cx="10.5" cy="10.5" r="7.5"></circle>
-            <path d="M21 21l-5.2-5.2"></path>
-          </svg>
-        </a>
       </div>
     </div>
   </nav>
 
-  <main class="main">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#999"></rect>
-          </svg>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#999"></rect>
-          </svg>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#999"></rect>
-          </svg>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+  <header class="header">
+    <div class="content">
+      <h1 class="mb-4">
+        Building exactly the eCommerce website you want.
+      </h1>
+      <p class="mb-4">
+        WooCommerce is a customizable, open-source eCommerce platform built on WordPress. <br>
+        Get started quickly and make your way.
+      </p>
+      <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#exampleModal">
+        Start a New Store
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      or <a href="#" class="font-weight-bold ml-1">Customize & Extend ›</a>
     </div>
+    <div class="image">
+      <!-- <img src="assets/images/featured-image.png" class="img-fluid" alt=""> -->
+    </div>
+  </header>
 
-    <section class="education bg-light py-5">
-      <div class="container">
-        <div class="row" id="tour">
+  <section class="ecommerce container">
+    <h2 class="subtitle text-center">
+      Your eCommerce <br>
+      made simple
+    </h2>
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <img src="assets/images/start.png" class="img-fluid card-img-top" alt="All You Need to Start">
+          <div class="card-body mx-5">
+            <h5 class="card-title">
+              All You Need to Start
+            </h5>
+            <p class="card-text">
+              Add WooCommerce plugin to any WordPress site and set up a new store in minutes.
+            </p>
+            <a href="#" class="font-weight-bold">
+              Ecommerce for Wordpress ›
+            </a>
+          </div>
         </div>
       </div>
-    </section>
-  </main>
+      <div class="col-4">
+        <div class="card mt-10">
+          <img src="assets/images/customize.png" class="img-fluid card-img-top" alt="Customize and Extend">
+          <div class="card-body mx-5">
+            <h5 class="card-title">
+              Customize and Extend
+            </h5>
+            <p class="card-text">
+              From subscriptions to gym classes to luxury cars, WooCommerce is fully customizable.
+            </p>
+            <a href="#" class="font-weight-bold">
+              Browse Extensions ›
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mt-20">
+          <img src="assets/images/community.png" class="img-fluid card-img-top" alt="Active Community">
+          <div class="card-body mx-5">
+            <h5 class="card-title">
+              Active Community
+            </h5>
+            <p class="card-text">
+              WooCommerce is one of the fastest-growing eCommerce communities.
+            </p>
+            <a href="#" class="font-weight-bold">
+              Check our Forums ›
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <footer id="footer" class="bg-dark py-5"></footer>
+  <section class="develop">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-9">
+          <div class="row justify-content-start">
+            <div class="col-9">
+              <div class="card">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <img src="assets/images/develop -without-limits.png" class="img-fluid" alt="Develop Without Limits">
+                  </div>
+                  <div class="col-6 position-relative">
+                    <div class="card-body vertical-center">
+                      <h5 class="card-title">
+                        Develop <br>
+                        Without Limits
+                      </h5>
+                      <p class="card-text">
+                        WooCommerce is developer friendly, too. Built with a REST API, WooCommerce is scalable and can
+                        integrate
+                        with virtually any service. Design a complex store from scratch, extend a store for a client, or
+                        simply
+                        add a single product to a WordPress site—your store, your way.
+                      </p>
+                      <a href="#" class="btn btn-secondary">
+                        Read the Documentation
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-end">
+            <div class="col-9">
+              <div class="card">
+                <div class="row no-gutters">
+                  <div class="col-6 position-relative">
+                    <div class="card-body vertical-center">
+                      <h5 class="card-title">
+                        Know our <br>
+                        Global Community
+                      </h5>
+                      <p class="card-text">
+                        WooCommerce is one of the fastest-growing eCommerce communities. We’re proud that the
+                        helpfulness of
+                        the
+                        community and a wealth of online resources are frequently cited as reasons our users love it.
+                        There
+                        are
+                        80+ meetups worldwide!
+                      </p>
+                      <a href="#" class="btn btn-secondary">
+                        Read the Documentation
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <img src="assets/images/know-our-global-community.png" class="img-fluid"
+                      alt="Know our Global Community">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
-  <script src="./scripts/main.js"></script>
+  <section class="agency">
+    <div class="container">
+      <h2 class="subtitle text-center mb-5">
+        Trusted by Agencies <br>
+        & Store Owners
+      </h2>
+      <div class="card-stack">
+        <a class="buttons prev" href="#">
+          <svg class="bi" width="30" height="30">
+            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#arrow-left" />
+          </svg>
+        </a>
+        <ul class="card-list">
+          <li class="card">
+            <p>
+              No other eCommerce platform allows people to start for free and grow their store as their business grows.
+              More importantly, WooCommerce doesn't charge you a portion of your profits as your business grows!
+            </p>
+          </li>
+          <li class="card">
+            <p>
+              No other eCommerce platform allows people to start for free and grow their store as their business grows.
+              More importantly, WooCommerce doesn't charge you a portion of your profits as your business grows!
+            </p>
+          </li>
+          <li class="card activeNow">
+            <p>
+              No other eCommerce platform allows people to start for free and grow their store as their business grows.
+              More importantly, WooCommerce doesn't charge you a portion of your profits as your business grows!
+            </p>
+          </li>
+        </ul>
+        <a class="buttons next" href="#">
+          <svg class="bi" width="30" height="30">
+            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#arrow-right" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="supported">
+    <div class="container">
+      <h2 class="subtitle text-center mb-4">
+        Supported by real people
+      </h2>
+      <p class="text-center">
+        Our team of Happiness Engineers works remotely from 58 countries providing <br> 
+        customer support across multiple time zones.
+      </p>
+      <div class="text-center">
+        <img src="assets/images/people.png" class="img-fluid" alt="Supported by real people">
+      </div>
+    </div>
+  </section>
+
+  <section class="get-started">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-7">
+          WooCommerce - the <span class="font-weight-bold">most customizable eCommerce platform</span> for building <span class="font-weight-bold">your online business</span>.
+        </div>
+        <div class="col-2">
+          <a href="#" class="btn btn-outline-light mt-3">
+            GET STARTED
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script type="module" src="assets/js/starter.js"></script>
 </body>
 
 </html>
